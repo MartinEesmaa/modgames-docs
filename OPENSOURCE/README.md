@@ -2,6 +2,6 @@
 
 Open source games:
 
-- [Warmux](WARMUX.md) - Overall difficulty to mod: Easy-Medium
+- [Warmux](warmux.md) - Overall difficulty to mod: Easy-Medium
 
 - Martin Eesmaa
