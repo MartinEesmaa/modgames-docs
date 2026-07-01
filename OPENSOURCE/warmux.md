@@ -2,6 +2,8 @@
 
 Warmux is a Worms-like game where the players fight on a 2D map with funny weapons.
 
+The game files were used for assets and resources: PNG, JPEG, XML and OGG (Vorbis).
+
 ## Maps
 
 To make your own map, you need to have files and create new folder with map name:
@@ -36,6 +38,23 @@ config.xml template in data/map/example folder:
 
 	<music_playlist>woodlux</music_playlist> <!-- see the data/music/ingame folder, reads the woodlux.m3u as music playlist for example -->
 </resources>
+```
+
+## Music
+
+If you want to put your favorite music to the game, you need to have encoded Vorbis 44.1 kHz audio file.
+Also `profile.xml` is required to manually change it.
+
+Add a line before profile code ends:
+
+```xml
+<music type="sample" playlist="ingame/sample.m3u" />
+```
+
+File sample.m3u of music playlist:
+
+```text
+sample_music.ogg
 ```
 
 - Martin Eesmaa
