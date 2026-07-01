@@ -24,13 +24,13 @@ config.xml template in data/map/example folder:
 		<country>[like where are you from]</country>
 	</author>
 
-  <description>Sample description.</description>
+	<description>Sample description.</description>
 	<surface name="sky" file="sky.png" />
 	<surface name="map" file="background.png" />
 	<surface name="preview" file="preview.jpg" />
 
 	<name>[title artwork]</name>
-	<water>no</water> <!-- specify no, water, lava -->
+	<water>no</water> <!-- you can specify no to disable it, water or lava to activate it -->
 	<nb_mine>10</nb_mine>
 	<is_open>1</is_open> <!-- if it's 0, then it's closed. Otherwise it's open -->
 
