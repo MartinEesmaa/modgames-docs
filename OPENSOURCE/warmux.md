@@ -13,7 +13,7 @@ To make your own map, you need to have files and create new folder with map name
 - sky.png or sky.jpg (static image file of sky background)
 - preview.jpg (preview thumbnail, must be at 300x225 JPEG compressed image file)
 
-config.xml template in data/map/example folder:
+config.xml template:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -38,6 +38,23 @@ config.xml template in data/map/example folder:
 
 	<music_playlist>woodlux</music_playlist> <!-- see the data/music/ingame folder, reads the woodlux.m3u as music playlist for example -->
 </resources>
+```
+
+Once you created your map folder, see the documentation to install your own map on the game (tested on Warmux 11.04):
+
+Make sure to launch Warmux game after the installing the game, this will create a new empty directories on Warmux folder.
+
+```text
+For Linux, Mac OS X and *BSD of Warmux 11.04+ version:
+Copy for your example map folder into ~/.local/share/warmux/map/
+
+Please note the .local is a hidden directory on home folder.
+
+Windows XP/Vista:
+%userprofile%\My Documents\Warmux\map\
+
+Windows 7 and later:
+%userprofile%\Documents\Warmux\map\
 ```
 
 ## Music
