@@ -9,9 +9,15 @@ The game files were used for assets and resources: PNG, JPEG, XML and OGG (Vorbi
 To make your own map, you need to have files and create new folder with map name:
 
 - config.xml (XML configuration map file)
-- map.png (PNG transparent image map file)
-- sky.png or sky.jpg (static image file of sky background)
+- background.png (PNG transparent image map file, for example only visible characters, sprites or anything except sky background)
+- sky.png or sky.jpg (static image file of only sky background)
 - preview.jpg (preview thumbnail, must be at 300x225 JPEG compressed image file)
+
+Here is an example for my map wallpaper of Dream Stingray that you can install on Warmux over your local Documents folder of Warmux/maps: [example here](warmux/maps/)
+
+Example screenshot:
+
+![warmuxmap](warmuxmap.png)
 
 config.xml template:
 
