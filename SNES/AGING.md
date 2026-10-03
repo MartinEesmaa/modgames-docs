@@ -1,17 +1,17 @@
 # SNES Aging Test programs
 
-Written, hacked, analyzed & documented by Martin Eesmaa.
+Written, hacked, analyzed, researched & documented by Martin Eesmaa.
 
 Initial date: 03.10.2026
 
-This software was used within Nintendo's Uji factory in Japan during manufacturing of Super Famicom. v1.00 was produced date in 1990.
+This test software was used within Nintendo's Uji factory in Japan during manufacturing of Super Famicom. v1.00 was produced date in 1990.
 
 Requirements:
 
 - Super Famicom Aging Program V1.00 original ROM file (mandatory)
 - Raster/pixel graphics to edit: GIMP, YY.CHR-NET, Aseprite or any raster graphics editor
 - Map editing: M8TE (Mode 3 & 7) or/and M1TE2 (Mode 1)
-- SNES emulator: MesenCE (recommended), snes9x or bsnes
+- SNES emulator: MesenCE (recommended), snes9x or bsnes (alternative you can also use physical console with like SD2SNES)
 
 Here are my hacks/modding can do Super Famicom Aging version 1.00:
 
@@ -41,7 +41,7 @@ If you want to bypass basic tests after errors via old emulators/physical consol
 
 CPU location address: **$00992A**
 
-Note: The audio is delay when you bypass basic tests.
+Note: The audio is out of sync when you bypass basic tests.
 
 ## Modding
 
