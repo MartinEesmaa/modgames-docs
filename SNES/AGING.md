@@ -31,6 +31,8 @@ After that it should take you into this, result:
 
 ![sfcms100](sfcms100.png)
 
+Alternatively, IPS patch file: [SHVC-AGING-MS-v100](patches/SHVC-AGING-MSv100.ips)
+
 If you want to bypass basic tests after errors via old emulators/physical consoles to start anyways Mode background tests, then activate:
 
 ```text
