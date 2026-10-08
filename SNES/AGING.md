@@ -8,7 +8,7 @@ This test software was used within Nintendo's Uji factory in Japan during manufa
 
 Requirements:
 
-- Super Famicom Aging Program V1.00 original ROM file (mandatory)
+- Super Famicom Aging Program V1.00 or V1.02 original ROM file (mandatory)
 - Raster/pixel graphics to edit: GIMP, YY.CHR-NET, Aseprite or any raster graphics editor
 - Map editing: M8TE (Mode 3 & 7) or/and M1TE2 (Mode 1)
 - SNES emulator: MesenCE (recommended), snes9x or bsnes (alternative you can also use physical console with like SD2SNES)
@@ -57,12 +57,12 @@ Please note: You must have a tileset, a map and palette all together with M1TE2 
 
 | Data | Program ROM address | Type | Bytes used |
 | --- | --- | --- | ---- |
-| Texts | `$10000` | 2bps | 8192 bytes |
-| Sprites | `$12000` | 4bps | 8192 bytes |
-| Big sprites | `$14000-15FFF` | 4bps | 8192 bytes |
+| Texts | `$10000` | 2bps | 8192 bytes 1.00 <br> 16384 bytes 1.02 |
+| Sprites | `$12000` 1.00 <br> `$14000` 1.02 | 4bps | 8192 bytes |
+| Big sprites | `$14000-15FFF` 1.00 <br> `$16000-17FFF` 1.02 | 4bps | 8192 bytes |
 | Mode 3 tilesets | `$8000-BFFF` | 8bps | 16384 bytes |
 | Music SPC | `$18000-1A115` | Music | 8470 bytes |
-| Palettes | `$2B5A-2C59` (Mode 0 only), `$16B00-16BFF`, `$16800-169FF` (Mode 3 & 7 only) | Color | 256/512 bytes, total 1024 bytes |
+| Palettes | `$2B5A-2C59` (Mode 0 only), `$16B00-16BFF`, `$16800-169FF` (Mode 3 & 7 only) 1.00 <br> `$2D81-2E80` (Mode 0 only), `$1A700-1A7FF`, `$1A400-1A5FF` (Mode 3 & 7 only) 1.02 | Color | 256/512 bytes, total 1024 bytes |
 | Mode 7 rotation | `$3809-4348` | Animation keys | 2880 bytes |
 
 ---
@@ -72,7 +72,7 @@ Please note: You must have a tileset, a map and palette all together with M1TE2 
 | 0 (only Layer 4) | `$4800-4FFF` (MODE 0 WHITE TEXT), `$5000-57FF` (BLUE TEXT), `$5800-$5FFF` (RED TEXT), `$6000-$67FF` (GREEN TEXT) | Each screen texts has 2048 bytes, makes total 8192 bytes |
 | 1 | `$1B000-1B7FF` (Layer 1), `$1B800-1BFFF` (Layer 2) | Each mode layer is 2048 bytes, total 4096 bytes |
 | 2 | `$1D000-1D7FF` (Layer 2) | 2048 bytes |
-| 3 & 7 | `$16000-167FF` | 2048 bytes |
+| 3 & 7 | `$16000-167FF` 1.00 <br> `$1A800-1B3FF` 1.02 | 2048 bytes |
 | 6 | `$1C000-1C7FF` (Layer 1) | 2048 bytes |
 
 - 2026 Martin Eesmaa
