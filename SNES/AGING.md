@@ -69,9 +69,13 @@ Unused data partitions: Another Mode 3 tilesets from `$C000-FFFF` (16384 bytes, 
 
 ---
 
-| Mode maps | Program ROM address | Bytes |
+| Mode/object maps | Program ROM address | Bytes |
 | --- | --- | --- |
 | 0 (only Layer 4) | `$4800-4FFF` (MODE 0 WHITE TEXT), `$5000-57FF` (BLUE TEXT), `$5800-$5FFF` (RED TEXT), `$6000-$67FF` (GREEN TEXT) | Each screen texts has 2048 bytes, makes total 8192 bytes |
+| 0 (1st-4th) sprite | `$1B1C`, `1B3F`, `1B62`, `1B9B` 1.00 (16x16) <br> `$1DD9`, `1DFD`, `1E1C` 1.02 (32x32) | 1 byte + extra byte for rotation (00, 40, 80, A0, C0), total 8 bytes 1.00 / 6 bytes 1.02 |
+| 0 (priority OAM rotation) | `$1BB2` 1.00 <br> `$1E42` 1.02 | 1 byte |
+| OBJTEST background color | `$1C3C` 1.00 <br> `$1EBD` 1.02 | 1 byte |
+| OBJTEST flip screen (X,Y,TILE_ADDRESS,OAM) | `$1D64-1D7B` 1.00 <br> `$1FD7-1FF2` 1.02 | 24 bytes 1.00 / 28 bytes 1.02 |
 | 1 | `$1B000-1B7FF` (Layer 1), `$1B800-1BFFF` (Layer 2) | Each mode layer is 2048 bytes, total 4096 bytes |
 | 2 | `$1D000-1D7FF` (Layer 2) | 2048 bytes |
 | 3 & 7 | `$16000-167FF` 1.00 <br> `$1A800-1B3FF` 1.02 | 2048 bytes |
