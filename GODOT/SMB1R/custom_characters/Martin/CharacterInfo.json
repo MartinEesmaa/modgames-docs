@@ -1,0 +1,116 @@
+{
+	"name": "Martin Eesmaa",
+	"physics": {
+		"PHYSICS_PARAMETERS": {
+			"Default": {
+				"AIR_WALK_ACCEL": 3.5,
+				"AIR_RUN_ACCEL": 3.5,
+				"AIR_BACKWARDS_ACCEL": 3.5,
+				"AIR_WALK_SKID_ACCEL": 5.25,
+				"AIR_RUN_SKID_ACCEL": 5.25,
+				"AIR_BACKWARDS_SKID_ACCEL": 5.25,
+				"GROUND_WALK_DECEL": 3.0,
+				"GROUND_RUN_DECEL": 3.0,
+				"FALL_GRAVITY_IDLE": 25.0,
+				"FALL_GRAVITY_WALK": 25.0,
+				"FALL_GRAVITY_RUN": 25.0,
+				"GROUND_RUN_ACCEL": 1.25,
+				"GROUND_WALK_ACCEL": 4.0,
+				"JUMP_GRAVITY_IDLE": 12.0,
+				"JUMP_GRAVITY_WALK": 12.0,
+				"JUMP_GRAVITY_RUN": 12.0,
+				"JUMP_SPEED_IDLE": 300.0,
+				"JUMP_SPEED_WALK": 300.0,
+				"JUMP_SPEED_RUN": 300.0,
+				"JUMP_INCR": 8.0,
+				"SWIM_GRAVITY": 2.5,
+				"SWIM_SPEED": 95.0,
+				"MAX_FALL_SPEED": 280.0,
+				"MAX_SWIM_FALL_SPEED": 200.0,
+				"RUN_SKID": 8.0,
+				"RUN_SPEED": 170.0,
+				"WALK_SKID": 8.0,
+				"WALK_SPEED": 92.0,
+				"COLLISION_SIZE": [
+					8.0,
+					28.0
+				],
+				"CROUCH_COLLISION_SIZE": [
+					8.0,
+					14.0
+				]
+			},
+			"Small": {
+				"COLLISION_SIZE": [
+					8.0,
+					14.0
+				],
+				"CROUCH_COLLISION_SIZE": [
+					8.0,
+					14.0
+				]
+			},
+			"Big": {
+
+			},
+			"Fire": {
+
+			}
+		},
+		"CLASSIC_PARAMETERS": {
+			"Default": {
+
+			},
+			"Small": {
+
+			},
+			"Big": {
+
+			},
+			"Fire": {
+
+			}
+		},
+		"ENDING_PARAMETERS": {
+			"Default": {
+
+			},
+			"Small": {
+
+			},
+			"Big": {
+
+			},
+			"Fire": {
+
+			}
+		},
+		"DEATH_PARAMETERS": {
+			"Default": {
+
+			}
+		},
+		"COSMETIC_PARAMETERS": {
+			"Default": {
+
+			},
+			"Small": {
+
+			},
+			"Big": {
+
+			},
+			"Fire": {
+
+			}
+		},
+		"POWER_PARAMETERS": {
+			"Default": {
+
+			},
+			"Fire": {
+
+			}
+		}
+	}
+}
