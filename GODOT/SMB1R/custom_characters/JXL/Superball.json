@@ -1,0 +1,182 @@
+{
+	"animations": {
+		"AirAttack": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Attack": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Climb": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Crouch": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Die": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Grow": {
+			"frames": [
+				[
+					68.0,
+					12.0,
+					29.0,
+					11.0
+				],
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Idle": {
+			"frames": [
+				[1.0, 1.0, 64.0, 22.0]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Jump": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Move": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Skid": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"SwimAttack": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"SwimIdle": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 10.0,
+			"loop": true
+		},
+		"SwimUp": {
+			"frames": [
+				[
+					1.0,
+					1.0,
+					64.0,
+					22.0
+				]
+			],
+			"speed": 4.0,
+			"loop": true
+		},
+		"FaceForward": {
+			"frames": [[1, 1, 64, 22]],
+			"speed": 1.0,
+			"loop": true
+		},
+		"Pose": {
+			"frames": [[1, 1, 64, 22]],
+			"speed": 1.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "JXLsuperball.png",
+			"rect": [
+				0.0,
+				0.0,
+				98.0,
+				33.0
+			]
+		}
+	}
+}
