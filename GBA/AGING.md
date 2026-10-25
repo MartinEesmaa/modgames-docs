@@ -22,6 +22,7 @@ Best to view/emulate/analyze/edit/mod/debug is to use MesenCE emulator.
 | --- | --- | --- | ---- |
 | Horizontal RGB555 image (240x160) | `$77D70` 1.0 <br> `$83340` 7.0 <br> `$834EC` 7.1 <br> `$84278` 9.0 `$84330` 10.0 <br> | Direct color | 76800 bytes |
 | Vertical RGB555 image (160x256) | `$A8F40` 7.0 | Direct color | 81920 bytes |
+| Nintendo 64 coin sprite | `$BE180` 7.0 | 8 bps | 4096 bytes |
 
 More coming soon...
 
