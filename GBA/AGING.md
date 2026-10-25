@@ -24,6 +24,12 @@ Best to view/emulate/analyze/edit/mod/debug is to use MesenCE emulator.
 | Vertical RGB555 image (160x256) | `$A8F40` 7.0 | Direct color | 81920 bytes |
 | Nintendo 64 coin sprite | `$BE180` 7.0 | 8 bps | 4096 bytes |
 
+## Test results
+
+My own custom horizontal RGB555 image from GBA AGING version 7.0:
+
+![customrgb555](customrgb555test.png)
+
 More coming soon...
 
 - 2026 Martin Eesmaa
