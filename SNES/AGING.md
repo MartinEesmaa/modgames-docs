@@ -91,7 +91,7 @@ Please note: You must have a tileset, a map and palette all together with M1TE2 
 | Palettes | `$2B5A-2C59` (Mode 0 only), `$16B00-16BFF`, `$16800-169FF` (Mode 3 & 7 only) 1.00 <br> `$2D81-2E80` (Mode 0 only), `$1A700-1A7FF`, `$1A400-1A5FF` (Mode 3 & 7 only) 1.02 | Color | 256/512 bytes, total 1024 bytes |
 | Mode 7 rotation | `$3809-4348` 1.00 <br> `$3A10-454F` 1.02 | Animation keys | 2880 bytes |
 
-Unused data partitions: Another Mode 3 tilesets from `$C000-FFFF` (16384 bytes, v1.00/1.02) & alternative palette `$16A00-16AFF` (1.00) / `$1A600-1A6FF` (1.02) of 256 bytes
+Unused data partitions: Alternative Mode 3/7 tilesets (128x128) from `$C000-FFFF` (16384 bytes, v1.00/1.02), alternative palette `$16A00-16AFF` (1.00) / `$1A600-1A6FF` (1.02) of 256 bytes & unused maps file of Mode 1 `$1D800-1DFFF` (2048 bytes)
 
 ---
 
