@@ -20,9 +20,24 @@ Best to view/emulate/analyze/edit/mod/debug is to use MesenCE emulator.
 
 | Data | Program ROM address | Type | Bytes used |
 | --- | --- | --- | ---- |
-| Horizontal RGB555 image (240x160) | `$77D70` 1.0 <br> `$83340` 7.0 <br> `$834EC` 7.1 <br> `$84278` 9.0 `$84330` 10.0 <br> | Direct color | 76800 bytes |
+| White & black bars RGB555 test (240x160) | `$64864` 7.0 | Direct color | 76800 bytes |
+| Horizontal RGB555 image (240x160) | `$77D70` 1.0 <br> `$83340` 7.0 <br> `$834EC` 7.1 <br> `$84278` 9.0 <br> `$84330` 10.0 | Direct color | 76800 bytes |
+| Raw image (240x160) | `$96140` 7.0 | 8bps | 38400 bytes |
+| Another raw image (240x160) | `$9F940` 7.0 | 8bps | 38400 bytes |
 | Vertical RGB555 image (160x256) | `$A8F40` 7.0 | Direct color | 81920 bytes |
+| Donkey Kong 64 golden key | `$BCF60` 7.0 | 4 bps | 2048 bytes |
+| Blue headphones sprite | `$BD780` 7.0 | 4 bps | 2048 bytes |
 | Nintendo 64 coin sprite | `$BE180` 7.0 | 8 bps | 4096 bytes |
+| Banana with N64 logo | `$BF380` 7.0 | 8 bps | 4096 bytes |
+| Slingshot sprite | `$C0580` 7.0 | 8 bps | 4096 bytes |
+| Watermelon box | `$C1780` 7.0 | 8 bps | 2048 bytes |
+| Penguins tiles | `$C3100` 7.0 & `$C3DC0` 7.0 | 8 bps | 2752 bytes, total 5504 bytes |
+| Miscellaneous tiles | `$C4A20` 7.0 | 4 bps | 32768 bytes |
+| Multi layers backgrounds | `$CCE50` 7.0 | 8 bps | 32768 bytes |
+| Five bunch sprites | `$D527C` 7.0 | 8 bps | 32768 bytes |
+| Donkey Kong Advance logo | `$DD6AC` 7.0 | 4 bps | 32768 bytes |
+| Mario heads with miscellaneous icons | `$E5ADC` 7.0 | 8 bps | 32768 bytes |
+| Initial Nintendo screen tiles | `$101C68` 7.0 | 4 bps | 19232 bytes |
 
 ## Test results
 
